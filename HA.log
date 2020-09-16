@@ -1,0 +1,514 @@
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.zigbee.application] Broadcast not implemented.
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x49 b'fffc3c00'
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x00I\x00\x04r\xff\xfc<\x00'
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x10I\x02\x10\x02\x14r\xff\xfc<\x02\x10'
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005980054004900
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00540049' LQI:0
+2020-09-16 15:16:16 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 84, 73, b'']
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000643030000f00300
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f003' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000645030000f00500
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f005' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000645030000f00500
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f005' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000641030000f00100
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f001' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f00000
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f000' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000641030000f00100
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f001' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f00200
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f002' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000643030000f00300
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f003' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000644030000f00400
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f004' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000641030000f10000
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f100' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f10100
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f101' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000643030000f10200
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f102' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f10300
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f103' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000645030000f10400
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f104' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000644030000f10500
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f105' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f10100
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f101' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f10300
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f103' LQI:0
+2020-09-16 15:16:31 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8048000a61ec1bbdfffe32f9230000
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8048 b'ec1bbdfffe32f92300' LQI:0
+2020-09-16 15:16:31 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [ec:1b:bd:ff:fe:32:f9:23, 0]
+2020-09-16 15:16:31 INFO (MainThread) [zigpy.application] Device 0x0000 (ec:1b:bd:ff:fe:32:f9:23) left the network
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f10300
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f103' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f10100
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f101' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f10300
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f103' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000645030000f00500
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f005' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 004d000d51d9ebec1bbdfffe32f923800000
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x4d b'd9ebec1bbdfffe32f9238000' LQI:0
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0xd9eb, ec:1b:bd:ff:fe:32:f9:23, 128]
+2020-09-16 15:16:32 INFO (MainThread) [zigpy.application] Device 0xd9eb (ec:1b:bd:ff:fe:32:f9:23) joined the network
+2020-09-16 15:16:32 INFO (MainThread) [zigpy.device] [0xd9eb] Requesting 'Node Descriptor'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy.util] Tries remaining: 2
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x02 request
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Node_Desc_req: 0x0002>, 0, 0, 2, b'\x02\xeb\xd9', True, False)
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb00000002000000000302ebd9'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x0f;\x02\xd9\xeb\x00\x00\x00\x02\x00\x00\x00\x00\x03\x02\xeb\xd9'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x02\x1f;\x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10\x02\x12\x02\x10\x02\x10\x02\x10\x02\x10\x02\x13\x02\x12\xeb\xd9'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000053e008e053000
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'008e0530' LQI:0
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 142, 1328, b'']
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f10100
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f101' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f10300
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f103' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001aad0000000013000002d9eb02fffd83ebd923f932feffbd1bec8084
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000000013000002d9eb02fffd83ebd923f932feffbd1bec80' LQI:132
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 19, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0xfffd>, b'\x83\xeb\xd9#\xf92\xfe\xff\xbd\x1b\xec\x80']
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy.zdo] [0xd9eb:zdo] ZDO request ZDOCmd.Device_annce: [0xD9EB, ec:1b:bd:ff:fe:32:f9:23, 128]
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f10100
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f101' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000642030000f10300
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f103' LQI:0
+2020-09-16 15:16:32 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 87010005b10000d9eb00
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8701 b'0000d9eb' LQI:0
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0]
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001f320000008002000002d9eb0200000200ebd90240800210525200002c52000081
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008002000002d9eb0200000200ebd90240800210525200002c520000' LQI:129
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32770, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x02\x00\xeb\xd9\x02@\x80\x02\x10RR\x00\x00,R\x00\x00']
+2020-09-16 15:16:32 INFO (MainThread) [zigpy.device] [0xd9eb] Node Descriptor: NodeDescriptor(byte1=2, byte2=64, mac_capability_flags=128, manufacturer_code=4098, maximum_buffer_size=82, maximum_incoming_transfer_size=82, server_mask=11264, maximum_outgoing_transfer_size=82, descriptor_capability_field=0)
+2020-09-16 15:16:32 INFO (MainThread) [zigpy.device] [0xd9eb] Discovering endpoints
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x04 request
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Active_EP_req: 0x0005>, 0, 0, 4, b'\x04\xeb\xd9', True, False)
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb00000005000000000304ebd9'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x0f:\x02\xd9\xeb\x00\x00\x00\x05\x00\x00\x00\x00\x03\x04\xeb\xd9'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x02\x1f:\x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10\x02\x15\x02\x10\x02\x10\x02\x10\x02\x10\x02\x13\x02\x14\xeb\xd9'
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000053f008f053000
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'008f0530' LQI:0
+2020-09-16 15:16:32 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 143, 1328, b'']
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020014960000008005000002d9eb0200000400ebd9010181
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008005000002d9eb0200000400ebd90101' LQI:129
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32773, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x04\x00\xeb\xd9\x01\x01']
+2020-09-16 15:16:33 INFO (MainThread) [zigpy.device] [0xd9eb] Discovered endpoints: [1]
+2020-09-16 15:16:33 INFO (MainThread) [zigpy.endpoint] [0xd9eb:1] Discovering endpoint information
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy.util] Tries remaining: 3
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x06 request
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Simple_Desc_req: 0x0004>, 0, 0, 6, b'\x06\xeb\xd9\x01', True, False)
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb00000004000000000406ebd901'
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x10 \x02\xd9\xeb\x00\x00\x00\x04\x00\x00\x00\x00\x04\x06\xeb\xd9\x01'
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x10 \x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10\x02\x14\x02\x10\x02\x10\x02\x10\x02\x10\x02\x14\x02\x16\xeb\xd9\x02\x11'
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005200090053000
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00900530' LQI:0
+2020-09-16 15:16:33 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 144, 1328, b'']
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020025a30000008004000002d9eb0200000600ebd912010401000001030000010006000219000a0084
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008004000002d9eb0200000600ebd912010401000001030000010006000219000a00' LQI:132
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32772, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x06\x00\xeb\xd9\x12\x01\x04\x01\x00\x00\x01\x03\x00\x00\x01\x00\x06\x00\x02\x19\x00\n\x00']
+2020-09-16 15:16:34 INFO (MainThread) [zigpy.endpoint] [0xd9eb:1] Discovered endpoint information: SizePrefixedSimpleDescriptor(endpoint=1, profile=260, device_type=0, device_version=1, input_clusters=[0, 1, 6], output_clusters=[25, 10])
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x08 request
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 0, 1, 1, 8, b'\x00\x08\x00\x04\x00\x05\x00', True, False)
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010000010400000700080004000500'
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x13\x1d\x02\xd9\xeb\x01\x01\x00\x00\x01\x04\x00\x00\x07\x00\x08\x00\x04\x00\x05\x00'
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x13\x1d\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x10\x02\x11\x02\x14\x02\x10\x02\x10\x02\x17\x02\x10\x02\x18\x02\x10\x02\x14\x02\x10\x02\x15\x02\x10'
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005210091053000
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00910530' LQI:0
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 145, 1328, b'']
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020031100001040000010102d9eb02000018080104000042105f545a333430305f6b65796a71746868050000420654533030343181
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb02000018080104000042105f545a333430305f6b65796a717468680500004206545330303431' LQI:129
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x08\x01\x04\x00\x00B\x10_TZ3400_keyjqthh\x05\x00\x00B\x06TS0041']
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020031100001040000010102d9eb02000018080104000042105f545a333430305f6b65796a71746868050000420654533030343181
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb02000018080104000042105f545a333430305f6b65796a717468680500004206545330303431' LQI:129
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x08\x01\x04\x00\x00B\x10_TZ3400_keyjqthh\x05\x00\x00B\x06TS0041']
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x08 seq -- probably duplicate response
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy.endpoint] [0xd9eb:1] Manufacturer: _TZ3400_keyjqthh
+2020-09-16 15:16:34 DEBUG (MainThread) [zigpy.endpoint] [0xd9eb:1] Model: TS0041
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Checking quirks for _TZ3400_keyjqthh TS0041 (ec:1b:bd:ff:fe:32:f9:23)
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because device_type mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {11, 13} {1}
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.lutron.lzl4bwhl01remote.LutronLZL4BWHL01Remote2'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because profile_id mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because device_type mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.osram.a19twhite.A19TunableWhite'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {3} {1}
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.philips.rom001.PhilipsROM001'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because device_type mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.philips.rwl020.PhilipsRWL020'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1, 2} {1}
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.philips.rwl021.PhilipsRWL021'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {1, 2} {1}
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because device_type mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because device_type mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1}
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because endpoint list mismatch: {232, 230} {1}
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Considering <class 'zhaquirks.xiaomi.mija.smoke.MijiaHoneywellSmokeDetectorSensor'>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.quirks.registry] Fail because device_type mismatch on at least one endpoint
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020031100001040000010102d9eb02000018080104000042105f545a333430305f6b65796a71746868050000420654533030343181
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb02000018080104000042105f545a333430305f6b65796a717468680500004206545330303431' LQI:129
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x08\x01\x04\x00\x00B\x10_TZ3400_keyjqthh\x05\x00\x00B\x06TS0041']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL request 0x0001: [[ReadAttributeRecord(attrid=4, status=<Status.SUCCESS: 0>, value=<TypeValue type=CharacterString, value=_TZ3400_keyjqthh>), ReadAttributeRecord(attrid=5, status=<Status.SUCCESS: 0>, value=<TypeValue type=CharacterString, value=TS0041>)]]
+2020-09-16 15:16:35 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] device - 0xD9EB:ec:1b:bd:ff:fe:32:f9:23 entering async_device_initialized - is_new_join: True
+2020-09-16 15:16:35 DEBUG (MainThread) [homeassistant.components.zha.core.gateway] device - 0xD9EB:ec:1b:bd:ff:fe:32:f9:23 has joined the ZHA zigbee network
+2020-09-16 15:16:35 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xD9EB](TS0041): started configuration
+2020-09-16 15:16:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:ZDO](TS0041): 'async_configure' stage succeeded
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x0a request
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Bind_req: 0x0021>, 0, 0, 10, b'\n#\xf92\xfe\xff\xbd\x1b\xec\x01\x00\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01', True, False)
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0000002100000000160a23f932feffbd1bec01000003f52b1e02008d150001'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00"\xe0\x02\xd9\xeb\x00\x00\x00!\x00\x00\x00\x00\x16\n#\xf92\xfe\xff\xbd\x1b\xec\x01\x00\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10"\xe0\x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10!\x02\x10\x02\x10\x02\x10\x02\x10\x16\x02\x1a#\xf92\xfe\xff\xbd\x1b\xec\x02\x11\x02\x10\x02\x10\x02\x13\xf5+\x1e\x02\x12\x02\x10\x8d\x15\x02\x10\x02\x11'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x0c request
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Bind_req: 0x0021>, 0, 0, 12, b'\x0c#\xf92\xfe\xff\xbd\x1b\xec\x01\x06\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01', True, False)
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0000002100000000160c23f932feffbd1bec01060003f52b1e02008d150001'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00"\xe0\x02\xd9\xeb\x00\x00\x00!\x00\x00\x00\x00\x16\x0c#\xf92\xfe\xff\xbd\x1b\xec\x01\x06\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10"\xe0\x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10!\x02\x10\x02\x10\x02\x10\x02\x10\x16\x02\x1c#\xf92\xfe\xff\xbd\x1b\xec\x02\x11\x02\x16\x02\x10\x02\x13\xf5+\x1e\x02\x12\x02\x10\x8d\x15\x02\x10\x02\x11'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x0e request
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Bind_req: 0x0021>, 0, 0, 14, b'\x0e#\xf92\xfe\xff\xbd\x1b\xec\x01\x01\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01', True, False)
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0000002100000000160e23f932feffbd1bec01010003f52b1e02008d150001'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00"\xe5\x02\xd9\xeb\x00\x00\x00!\x00\x00\x00\x00\x16\x0e#\xf92\xfe\xff\xbd\x1b\xec\x01\x01\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10"\xe5\x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10!\x02\x10\x02\x10\x02\x10\x02\x10\x16\x02\x1e#\xf92\xfe\xff\xbd\x1b\xec\x02\x11\x02\x11\x02\x10\x02\x13\xf5+\x1e\x02\x12\x02\x10\x8d\x15\x02\x10\x02\x11'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005220092053000
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00920530' LQI:0
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 146, 1328, b'']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005230093053000
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00930530' LQI:0
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 147, 1328, b'']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005240094053000
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00940530' LQI:0
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 148, 1328, b'']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200108f0000008021000002d9eb0200000a0084
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008021000002d9eb0200000a00' LQI:132
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32801, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\n\x00']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020010890000008021000002d9eb0200000c0084
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008021000002d9eb0200000c00' LQI:132
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32801, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x0c\x00']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200108b0000008021000002d9eb0200000e0084
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008021000002d9eb0200000e00' LQI:132
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32801, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x0e\x00']
+2020-09-16 15:16:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: bound 'power' cluster: Status.SUCCESS
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x10 request
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 1, 1, 1, 16, b'\x00\x10\x06\x00 \x00 \x10\x0e0*\x01', True, False)
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010001010400000c00100600200020100e302a01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x18\x06\x02\xd9\xeb\x01\x01\x00\x01\x01\x04\x00\x00\x0c\x00\x10\x06\x00 \x00 \x10\x0e0*\x01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x18\x02\x16\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x11\x02\x11\x02\x14\x02\x10\x02\x10\x02\x1c\x02\x10\x10\x02\x16\x02\x10 \x02\x10 \x10\x02\x1e0*\x02\x11'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005250095053000
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00950530' LQI:0
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 149, 1328, b'']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020013b10001040001010102d9eb02000008100b068281
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000008100b0682' LQI:129
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08\x10\x0b\x06\x82']
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=16 command_id=Command.Default_Response>
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000640030000f00000
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f000' LQI:0
+2020-09-16 15:16:35 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:35 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: reporting 'battery_voltage' attr on 'power' cluster: 3600/10800/1: Result: '[6, <Status.UNSUP_GENERAL_COMMAND: 130>]'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x12 request
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 1, 1, 1, 18, b'\x00\x12\x06\x00!\x00 \x10\x0e0*\x01', True, False)
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010001010400000c00120600210020100e302a01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x18\x05\x02\xd9\xeb\x01\x01\x00\x01\x01\x04\x00\x00\x0c\x00\x12\x06\x00!\x00 \x10\x0e0*\x01'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x18\x02\x15\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x11\x02\x11\x02\x14\x02\x10\x02\x10\x02\x1c\x02\x10\x12\x02\x16\x02\x10!\x02\x10 \x10\x02\x1e0*\x02\x11'
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80000005280098053000
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00980530' LQI:0
+2020-09-16 15:16:35 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 152, 1328, b'']
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8035000645030000f00500
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8035 b'030000f005' LQI:0
+2020-09-16 15:16:36 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8035
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020013b60001040001010102d9eb02000008120b068284
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000008120b0682' LQI:132
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08\x12\x0b\x06\x82']
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=18 command_id=Command.Default_Response>
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: reporting 'battery_percentage_remaining' attr on 'power' cluster: 3600/10800/1: Result: '[6, <Status.UNSUP_GENERAL_COMMAND: 130>]'
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: finished channel configuration
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x14 request
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 0, <ZDOCmd.Bind_req: 0x0021>, 0, 0, 20, b'\x14#\xf92\xfe\xff\xbd\x1b\xec\x01\x19\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01', True, False)
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0000002100000000161423f932feffbd1bec01190003f52b1e02008d150001'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00"\xe7\x02\xd9\xeb\x00\x00\x00!\x00\x00\x00\x00\x16\x14#\xf92\xfe\xff\xbd\x1b\xec\x01\x19\x00\x03\xf5+\x1e\x02\x00\x8d\x15\x00\x01'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10"\xe7\x02\x12\xd9\xeb\x02\x10\x02\x10\x02\x10!\x02\x10\x02\x10\x02\x10\x02\x10\x16\x14#\xf92\xfe\xff\xbd\x1b\xec\x02\x11\x19\x02\x10\x02\x13\xf5+\x1e\x02\x12\x02\x10\x8d\x15\x02\x10\x02\x11'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000052a009a053000
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'009a0530' LQI:0
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 154, 1328, b'']
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020010910000008021000002d9eb020000140084
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0000008021000002d9eb0200001400' LQI:132
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 0, 32801, 0, 0, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x14\x00']
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0019]: bound 'ota' cluster: Status.SUCCESS
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0019]: finished channel configuration
+2020-09-16 15:16:36 WARNING (MainThread) [zigpy_zigate.api] No response to command 0x0530
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy.device] [0xd9eb] Delivery error for seq # 0x0a, on endpoint id 0 cluster 0x0021: ZiGate doesn't answer to command
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0000]: Failed to bind 'basic' cluster: [0xd9eb:0:0x0021]: Message send failure
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0000]: finished channel configuration
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x16 request
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 0, 1, 1, 22, b'\x00\x16\x00\x07\x00', True, False)
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0101000001040000050016000700'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x11\x05\x02\xd9\xeb\x01\x01\x00\x00\x01\x04\x00\x00\x05\x00\x16\x00\x07\x00'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x11\x02\x15\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x10\x02\x11\x02\x14\x02\x10\x02\x10\x02\x15\x02\x10\x16\x02\x10\x02\x17\x02\x10'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000052b009b053000
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'009b0530' LQI:0
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 155, 1328, b'']
+2020-09-16 15:16:36 WARNING (MainThread) [zigpy_zigate.api] No response to command 0x0530
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy.device] [0xd9eb] Delivery error for seq # 0x0c, on endpoint id 0 cluster 0x0021: ZiGate doesn't answer to command
+2020-09-16 15:16:36 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: Failed to bind 'on_off' cluster: [0xd9eb:0:0x0021]: Message send failure
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x18 request
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 6, 1, 1, 24, b'\x00\x18\x06\x00\x00\x00\x10\x00\x00\x84\x03', True, False)
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010006010400000b0018060000001000008403'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x17\x93\x02\xd9\xeb\x01\x01\x00\x06\x01\x04\x00\x00\x0b\x00\x18\x06\x00\x00\x00\x10\x00\x00\x84\x03'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x17\x93\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x16\x02\x11\x02\x14\x02\x10\x02\x10\x02\x1b\x02\x10\x18\x02\x16\x02\x10\x02\x10\x02\x10\x10\x02\x10\x02\x10\x84\x02\x13'
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000052c009c053000
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'009c0530' LQI:0
+2020-09-16 15:16:36 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 156, 1328, b'']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020016150001040000010102d9eb02000018160107000030038d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb0200001816010700003003' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x16\x01\x07\x00\x000\x03']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=22 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020016150001040000010102d9eb02000018160107000030038d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb0200001816010700003003' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x16\x01\x07\x00\x000\x03']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=22 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x16 seq -- probably duplicate response
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020019a20001040001010102d9eb02000008570a210020c82000201e8d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000008570a210020c82000201e' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08W\n!\x00 \xc8 \x00 \x1e']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=87 command_id=Command.Report_Attributes>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL request 0x000a: [[Attribute(attrid=33, value=<TypeValue type=uint8_t, value=200>), Attribute(attrid=32, value=<TypeValue type=uint8_t, value=30>)]]
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] Attribute report received: battery_percentage_remaining=200, battery_voltage=30
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020019a20001040001010102d9eb02000008570a210020c82000201e8d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000008570a210020c82000201e' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08W\n!\x00 \xc8 \x00 \x1e']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=87 command_id=Command.Report_Attributes>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL request 0x000a: [[Attribute(attrid=33, value=<TypeValue type=uint8_t, value=200>), Attribute(attrid=32, value=<TypeValue type=uint8_t, value=30>)]]
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] Attribute report received: battery_percentage_remaining=200, battery_voltage=30
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020019a20001040001010102d9eb02000008570a210020c82000201e8d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000008570a210020c82000201e' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08W\n!\x00 \xc8 \x00 \x1e']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=87 command_id=Command.Report_Attributes>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL request 0x000a: [[Attribute(attrid=33, value=<TypeValue type=uint8_t, value=200>), Attribute(attrid=32, value=<TypeValue type=uint8_t, value=30>)]]
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] Attribute report received: battery_percentage_remaining=200, battery_voltage=30
+2020-09-16 15:16:37 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0000]: initializing channel: from_cache: False
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 1, 1, 1, 87, b'\x18W\x0b\n\x00', False, False)
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010001010400000518570b0a00'
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x11[\x02\xd9\xeb\x01\x01\x00\x01\x01\x04\x00\x00\x05\x18W\x0b\n\x00'
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x11[\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x11\x02\x11\x02\x14\x02\x10\x02\x10\x02\x15\x18W\x02\x1b\x02\x1a\x02\x10'
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.util] Duplicate 87 TSN
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.util] Duplicate 87 TSN
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020013b20001040006010102d9eb02000008180b06828d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040006010102d9eb02000008180b0682' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 6, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08\x18\x0b\x06\x82']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=24 command_id=Command.Default_Response>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80110007a400d9eb01000100
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8011 b'00d9eb010001' LQI:0
+2020-09-16 15:16:37 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8011
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001a9f0001040000010102d9eb02000008580adfff4205a8e8f426128d
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb02000008580adfff4205a8e8f42612' LQI:141
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08X\n\xdf\xffB\x05\xa8\xe8\xf4&\x12']
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=88 command_id=Command.Report_Attributes>
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=65503, value=<TypeValue type=CharacterString, value=���&>)]]
+2020-09-16 15:16:37 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] Attribute report received: 65503=���&
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001a9f0001040000010102d9eb02000008580adfff4205a8e8f426128d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb02000008580adfff4205a8e8f42612' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x08X\n\xdf\xffB\x05\xa8\xe8\xf4&\x12']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=88 command_id=Command.Report_Attributes>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=65503, value=<TypeValue type=CharacterString, value=���&>)]]
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] Attribute report received: 65503=���&
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000052f009f053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'009f0530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 159, 1328, b'']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 0, 1, 1, 88, b'\x18X\x0b\n\x00', False, False)
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010000010400000518580b0a00'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x11U\x02\xd9\xeb\x01\x01\x00\x00\x01\x04\x00\x00\x05\x18X\x0b\n\x00'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x11U\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x10\x02\x11\x02\x14\x02\x10\x02\x10\x02\x15\x18X\x02\x1b\x02\x1a\x02\x10'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.util] Duplicate 88 TSN
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: reporting 'on_off' attr on 'on_off' cluster: 0/900/1: Result: '[6, <Status.UNSUP_GENERAL_COMMAND: 130>]'
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: finished channel configuration
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051000a0053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a00530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 160, 1328, b'']
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0000]: 'async_configure' stage succeeded
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: 'async_configure' stage succeeded
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: 'async_configure' stage succeeded
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0019]: 'async_configure' stage succeeded
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xD9EB](TS0041): completed configuration
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xD9EB](TS0041): stored in registry: ZhaDeviceEntry(name='_TZ3400_keyjqthh TS0041', ieee='ec:1b:bd:ff:fe:32:f9:23', last_seen=1600262198.09359)
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xD9EB](TS0041): started initialization
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:ZDO](TS0041): 'async_initialize' stage succeeded
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x1c request
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 0, 1, 1, 28, b'\x00\x1c\x00\x07\x00', True, False)
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb010100000104000005001c000700'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x11\x0f\x02\xd9\xeb\x01\x01\x00\x00\x01\x04\x00\x00\x05\x00\x1c\x00\x07\x00'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x11\x02\x1f\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x10\x02\x11\x02\x14\x02\x10\x02\x10\x02\x15\x02\x10\x1c\x02\x10\x02\x17\x02\x10'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x1e request
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 6, 1, 1, 30, b'\x00\x1e\x00\x00\x00', True, False)
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb010100060104000005001e000000'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x11\x0c\x02\xd9\xeb\x01\x01\x00\x06\x01\x04\x00\x00\x05\x00\x1e\x00\x00\x00'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x11\x02\x1c\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x16\x02\x11\x02\x14\x02\x10\x02\x10\x02\x15\x02\x10\x1e\x02\x10\x02\x10\x02\x10'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x20 request
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 1, 1, 1, 32, b'\x00 \x001\x00!\x00 \x003\x00', True, False)
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010001010400000b0020003100210020003300'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x17>\x02\xd9\xeb\x01\x01\x00\x01\x01\x04\x00\x00\x0b\x00 \x001\x00!\x00 \x003\x00'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x17>\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x11\x02\x11\x02\x14\x02\x10\x02\x10\x02\x1b\x02\x10 \x02\x101\x02\x10!\x02\x10 \x02\x103\x02\x10'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80110007a500d9eb01000000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8011 b'00d9eb010000' LQI:0
+2020-09-16 15:16:38 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8011
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051100a1053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a10530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 161, 1328, b'']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051200a2053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a20530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 162, 1328, b'']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051300a3053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a30530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 163, 1328, b'']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200161f0001040000010102d9eb020000181c0107000030038d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb020000181c010700003003' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x1c\x01\x07\x00\x000\x03']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=28 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200161f0001040000010102d9eb020000181c0107000030038d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040000010102d9eb020000181c010700003003' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 0, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x1c\x01\x07\x00\x000\x03']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=28 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x1c seq -- probably duplicate response
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200163f0001040006010102d9eb020000181e0100000010008d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040006010102d9eb020000181e010000001000' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 6, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x1e\x01\x00\x00\x00\x10\x00']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=30 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200163f0001040006010102d9eb020000181e0100000010008d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040006010102d9eb020000181e010000001000' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 6, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18\x1e\x01\x00\x00\x00\x10\x00']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=30 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x1e seq -- probably duplicate response
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020021f40001040001010102d9eb02000018200131008621000020c8200000201e3300868d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000018200131008621000020c8200000201e330086' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18 \x011\x00\x86!\x00\x00 \xc8 \x00\x00 \x1e3\x00\x86']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020021f40001040001010102d9eb02000018200131008621000020c8200000201e3300868d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000018200131008621000020c8200000201e330086' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18 \x011\x00\x86!\x00\x00 \xc8 \x00\x00 \x1e3\x00\x86']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020021f40001040001010102d9eb02000018200131008621000020c8200000201e3300868d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000018200131008621000020c8200000201e330086' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18 \x011\x00\x86!\x00\x00 \xc8 \x00\x00 \x1e3\x00\x86']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020021f40001040001010102d9eb02000018200131008621000020c8200000201e3300868d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000018200131008621000020c8200000201e330086' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18 \x011\x00\x86!\x00\x00 \xc8 \x00\x00 \x1e3\x00\x86']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80020021f40001040001010102d9eb02000018200131008621000020c8200000201e3300868d
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb02000018200131008621000020c8200000201e330086' LQI:141
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18 \x011\x00\x86!\x00\x00 \xc8 \x00\x00 \x1e3\x00\x86']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+2020-09-16 15:16:38 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: initializing channel: from_cache: False
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x22 request
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 1, 1, 1, 34, b'\x00"\x00 \x00!\x00', True, False)
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb01010001010400000700220020002100'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x136\x02\xd9\xeb\x01\x01\x00\x01\x01\x04\x00\x00\x07\x00"\x00 \x00!\x00'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x136\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x11\x02\x11\x02\x14\x02\x10\x02\x10\x02\x17\x02\x10"\x02\x10 \x02\x10!\x02\x10'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051400a4053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a40530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 164, 1328, b'']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001376000104000a010102d9eb020000005900070084
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'000104000a010102d9eb0200000059000700' LQI:132
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 10, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x00Y\x00\x07\x00']
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x000a] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=89 command_id=Command.Read_Attributes>
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x000a] ZCL request 0x0000: [[7]]
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 10, 1, 1, 89, b'\x18Y\x01\x07\x00\x00#\xd6\xe8\xf4&', False, False)
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0101000a010400000b18590107000023d6e8f426'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x17\x9e\x02\xd9\xeb\x01\x01\x00\n\x01\x04\x00\x00\x0b\x18Y\x01\x07\x00\x00#\xd6\xe8\xf4&'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x17\x9e\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x1a\x02\x11\x02\x14\x02\x10\x02\x10\x02\x1b\x18Y\x02\x11\x02\x17\x02\x10\x02\x10#\xd6\xe8\xf4&'
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051600a6053000
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a60530' LQI:0
+2020-09-16 15:16:38 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 166, 1328, b'']
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001bc70001040001010102d9eb020000182201200000201e21000020c884
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb020000182201200000201e21000020c8' LQI:132
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18"\x01 \x00\x00 \x1e!\x00\x00 \xc8']
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=34 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001bc70001040001010102d9eb020000182201200000201e21000020c884
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb020000182201200000201e21000020c8' LQI:132
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18"\x01 \x00\x00 \x1e!\x00\x00 \xc8']
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=34 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x22 seq -- probably duplicate response
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 8002001bc70001040001010102d9eb020000182201200000201e21000020c884
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040001010102d9eb020000182201200000201e21000020c8' LQI:132
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 1, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18"\x01 \x00\x00 \x1e!\x00\x00 \xc8']
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=34 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x22 seq -- probably duplicate response
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80110007af00d9eb01000a00
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8011 b'00d9eb01000a' LQI:0
+2020-09-16 15:16:39 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8011
+2020-09-16 15:16:39 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0019]: initializing channel: from_cache: False
+2020-09-16 15:16:39 WARNING (MainThread) [zigpy_zigate.api] No response to command 0x0530
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.device] [0xd9eb] Delivery error for seq # 0x1c, on endpoint id 1 cluster 0x0000: ZiGate doesn't answer to command
+2020-09-16 15:16:39 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0000]: initializing channel: from_cache: False
+2020-09-16 15:16:39 WARNING (MainThread) [zigpy_zigate.api] No response to command 0x0530
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.device] [0xd9eb] Delivery error for seq # 0x1e, on endpoint id 1 cluster 0x0006: ZiGate doesn't answer to command
+2020-09-16 15:16:39 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: initializing channel: from_cache: False
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy.device] [0xd9eb] Extending timeout for 0x25 request
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.zigbee.application] request (0xD9EB, 260, 6, 1, 1, 37, b'\x00%\x00\x00\x00', True, False)
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Send: 0x530 b'02d9eb0101000601040000050025000000'
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame to send: b'\x050\x00\x117\x02\xd9\xeb\x01\x01\x00\x06\x01\x04\x00\x00\x05\x00%\x00\x00\x00'
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame escaped: b'\x02\x150\x02\x10\x117\x02\x12\xd9\xeb\x02\x11\x02\x11\x02\x10\x02\x16\x02\x11\x02\x14\x02\x10\x02\x10\x02\x15\x02\x10%\x02\x10\x02\x10\x02\x10'
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800000051700a7053000
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8000 b'00a70530' LQI:0
+2020-09-16 15:16:39 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 167, 1328, b'']
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200160d0001040006010102d9eb020000182501000000100084
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040006010102d9eb0200001825010000001000' LQI:132
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 6, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18%\x01\x00\x00\x00\x10\x00']
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=37 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 800200160d0001040006010102d9eb020000182501000000100084
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8002 b'0001040006010102d9eb0200001825010000001000' LQI:132
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy_zigate.zigbee.application] zigate_callback_handler [0, 260, 6, 1, 1, <Address address_mode=ADDRESS_MODE.NWK address=0xd9eb>, <Address address_mode=ADDRESS_MODE.NWK address=0x0000>, b'\x18%\x01\x00\x00\x00\x10\x00']
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy.zcl] [0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=37 command_id=Command.Read_Attributes_rsp>
+2020-09-16 15:16:40 DEBUG (MainThread) [zigpy.device] [0xd9eb] Invalid state on future for 0x25 seq -- probably duplicate response
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0000]: 'async_initialize' stage succeeded
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: 'async_initialize' stage succeeded
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0001]: 'async_initialize' stage succeeded
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0019]: 'async_initialize' stage succeeded
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xD9EB](TS0041): power source: Battery or Unknown
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.device] [0xD9EB](TS0041): completed initialization
+2020-09-16 15:16:40 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new sensor.zha entity: sensor.tz3400_keyjqthh_ts0041_23f932fe_power
+2020-09-16 15:16:40 DEBUG (MainThread) [homeassistant.components.zha.core.channels.base] [0xD9EB:1:0x0006]: attempting to update onoff state - from cache: True
+2020-09-16 15:16:40 INFO (MainThread) [homeassistant.helpers.entity_registry] Registered new switch.zha entity: switch.tz3400_keyjqthh_ts0041_23f932fe_on_off
+2020-09-16 15:19:07 DEBUG (MainThread) [zigpy_zigate.uart] Frame received: 80110007a300d9eb01000600
+2020-09-16 15:19:07 DEBUG (MainThread) [zigpy_zigate.api] data received 0x8011 b'00d9eb010006' LQI:0
+2020-09-16 15:19:07 ERROR (MainThread) [zigpy_zigate.api] Received unhandled response 0x8011
