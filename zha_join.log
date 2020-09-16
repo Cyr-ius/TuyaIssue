@@ -1,0 +1,150 @@
+Device 0xd9eb (ec:1b:bd:ff:fe:32:f9:23) joined the network
+[0xd9eb] Requesting 'Node Descriptor'
+Tries remaining: 2
+[0xd9eb] Extending timeout for 0x02 request
+[0xd9eb:zdo] ZDO request ZDOCmd.Device_annce: [0xD9EB, ec:1b:bd:ff:fe:32:f9:23, 128]
+[0xd9eb] Node Descriptor: NodeDescriptor(byte1=2, byte2=64, mac_capability_flags=128, manufacturer_code=4098, maximum_buffer_size=82, maximum_incoming_transfer_size=82, server_mask=11264, maximum_outgoing_transfer_size=82, descriptor_capability_field=0)
+[0xd9eb] Discovering endpoints
+Tries remaining: 3
+[0xd9eb] Extending timeout for 0x04 request
+[0xd9eb] Discovered endpoints: [1]
+[0xd9eb:1] Discovering endpoint information
+Tries remaining: 3
+[0xd9eb] Extending timeout for 0x06 request
+[0xd9eb:1] Discovered endpoint information: SizePrefixedSimpleDescriptor(endpoint=1, profile=260, device_type=0, device_version=1, input_clusters=[0, 1, 6], output_clusters=[25, 10])
+[0xd9eb] Extending timeout for 0x08 request
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x08 seq -- probably duplicate response
+[0xd9eb:1] Manufacturer: _TZ3400_keyjqthh
+[0xd9eb:1] Model: TS0041
+Checking quirks for _TZ3400_keyjqthh TS0041 (ec:1b:bd:ff:fe:32:f9:23)
+Considering <class 'bellows.zigbee.application.EZSPCoordinator'>
+Fail because device_type mismatch on at least one endpoint
+Considering <class 'zhaquirks.gledopto.soposhgu10.SoposhGU10'>
+Fail because endpoint list mismatch: {11, 13} {1}
+Considering <class 'zhaquirks.lutron.lzl4bwhl01remote.LutronLZL4BWHL01Remote2'>
+Fail because profile_id mismatch on at least one endpoint
+Considering <class 'zhaquirks.netvox.z308e3ed.Z308E3ED'>
+Fail because device_type mismatch on at least one endpoint
+Considering <class 'zhaquirks.osram.a19twhite.A19TunableWhite'>
+Fail because endpoint list mismatch: {3} {1}
+Considering <class 'zhaquirks.philips.rom001.PhilipsROM001'>
+Fail because device_type mismatch on at least one endpoint
+Considering <class 'zhaquirks.philips.rwl020.PhilipsRWL020'>
+Fail because endpoint list mismatch: {1, 2} {1}
+Considering <class 'zhaquirks.philips.rwl021.PhilipsRWL021'>
+Fail because endpoint list mismatch: {1, 2} {1}
+Considering <class 'zhaquirks.smartthings.multi.SmartthingsMultiPurposeSensor'>
+Fail because device_type mismatch on at least one endpoint
+Considering <class 'zhaquirks.smartthings.tag_v4.SmartThingsTagV4'>
+Fail because device_type mismatch on at least one endpoint
+Considering <class 'zhaquirks.xbee.xbee3_io.XBee3Sensor'>
+Fail because endpoint list mismatch: {232, 230} {1}
+Considering <class 'zhaquirks.xbee.xbee_io.XBeeSensor'>
+Fail because endpoint list mismatch: {232, 230} {1}
+Considering <class 'zhaquirks.xiaomi.mija.smoke.MijiaHoneywellSmokeDetectorSensor'>
+Fail because device_type mismatch on at least one endpoint
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=8 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0000] ZCL request 0x0001: [[ReadAttributeRecord(attrid=4, status=<Status.SUCCESS: 0>, value=<TypeValue type=CharacterString, value=_TZ3400_keyjqthh>), ReadAttributeRecord(attrid=5, status=<Status.SUCCESS: 0>, value=<TypeValue type=CharacterString, value=TS0041>)]]
+device - 0xD9EB:ec:1b:bd:ff:fe:32:f9:23 entering async_device_initialized - is_new_join: True
+device - 0xD9EB:ec:1b:bd:ff:fe:32:f9:23 has joined the ZHA zigbee network
+[0xD9EB](TS0041): started configuration
+[0xD9EB:ZDO](TS0041): 'async_configure' stage succeeded
+[0xd9eb] Extending timeout for 0x0a request
+[0xd9eb] Extending timeout for 0x0c request
+[0xd9eb] Extending timeout for 0x0e request
+[0xD9EB:1:0x0001]: bound 'power' cluster: Status.SUCCESS
+[0xd9eb] Extending timeout for 0x10 request
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=16 command_id=Command.Default_Response>
+[0xD9EB:1:0x0001]: reporting 'battery_voltage' attr on 'power' cluster: 3600/10800/1: Result: '[6, <Status.UNSUP_GENERAL_COMMAND: 130>]'
+[0xd9eb] Extending timeout for 0x12 request
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=18 command_id=Command.Default_Response>
+[0xD9EB:1:0x0001]: reporting 'battery_percentage_remaining' attr on 'power' cluster: 3600/10800/1: Result: '[6, <Status.UNSUP_GENERAL_COMMAND: 130>]'
+[0xD9EB:1:0x0001]: finished channel configuration
+[0xd9eb] Extending timeout for 0x14 request
+[0xD9EB:1:0x0019]: bound 'ota' cluster: Status.SUCCESS
+[0xD9EB:1:0x0019]: finished channel configuration
+[0xd9eb] Delivery error for seq # 0x0a, on endpoint id 0 cluster 0x0021: ZiGate doesn't answer to command
+[0xD9EB:1:0x0000]: Failed to bind 'basic' cluster: [0xd9eb:0:0x0021]: Message send failure
+[0xD9EB:1:0x0000]: finished channel configuration
+[0xd9eb] Extending timeout for 0x16 request
+[0xd9eb] Delivery error for seq # 0x0c, on endpoint id 0 cluster 0x0021: ZiGate doesn't answer to command
+[0xD9EB:1:0x0006]: Failed to bind 'on_off' cluster: [0xd9eb:0:0x0021]: Message send failure
+[0xd9eb] Extending timeout for 0x18 request
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=22 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=22 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x16 seq -- probably duplicate response
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=87 command_id=Command.Report_Attributes>
+[0xd9eb:1:0x0001] ZCL request 0x000a: [[Attribute(attrid=33, value=<TypeValue type=uint8_t, value=200>), Attribute(attrid=32, value=<TypeValue type=uint8_t, value=30>)]]
+[0xd9eb:1:0x0001] Attribute report received: battery_percentage_remaining=200, battery_voltage=30
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=87 command_id=Command.Report_Attributes>
+[0xd9eb:1:0x0001] ZCL request 0x000a: [[Attribute(attrid=33, value=<TypeValue type=uint8_t, value=200>), Attribute(attrid=32, value=<TypeValue type=uint8_t, value=30>)]]
+[0xd9eb:1:0x0001] Attribute report received: battery_percentage_remaining=200, battery_voltage=30
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=87 command_id=Command.Report_Attributes>
+[0xd9eb:1:0x0001] ZCL request 0x000a: [[Attribute(attrid=33, value=<TypeValue type=uint8_t, value=200>), Attribute(attrid=32, value=<TypeValue type=uint8_t, value=30>)]]
+[0xd9eb:1:0x0001] Attribute report received: battery_percentage_remaining=200, battery_voltage=30
+[0xD9EB:1:0x0000]: initializing channel: from_cache: False
+Duplicate 87 TSN
+Duplicate 87 TSN
+[0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=24 command_id=Command.Default_Response>
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=88 command_id=Command.Report_Attributes>
+[0xd9eb:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=65503, value=<TypeValue type=CharacterString, value=���&>)]]
+[0xd9eb:1:0x0000] Attribute report received: 65503=���&
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=False> manufacturer=None tsn=88 command_id=Command.Report_Attributes>
+[0xd9eb:1:0x0000] ZCL request 0x000a: [[Attribute(attrid=65503, value=<TypeValue type=CharacterString, value=���&>)]]
+[0xd9eb:1:0x0000] Attribute report received: 65503=���&
+Duplicate 88 TSN
+[0xD9EB:1:0x0006]: reporting 'on_off' attr on 'on_off' cluster: 0/900/1: Result: '[6, <Status.UNSUP_GENERAL_COMMAND: 130>]'
+[0xD9EB:1:0x0006]: finished channel configuration
+[0xD9EB:1:0x0000]: 'async_configure' stage succeeded
+[0xD9EB:1:0x0006]: 'async_configure' stage succeeded
+[0xD9EB:1:0x0001]: 'async_configure' stage succeeded
+[0xD9EB:1:0x0019]: 'async_configure' stage succeeded
+[0xD9EB](TS0041): completed configuration
+[0xD9EB](TS0041): stored in registry: ZhaDeviceEntry(name='_TZ3400_keyjqthh TS0041', ieee='ec:1b:bd:ff:fe:32:f9:23', last_seen=1600262198.09359)
+[0xD9EB](TS0041): started initialization
+[0xD9EB:ZDO](TS0041): 'async_initialize' stage succeeded
+[0xd9eb] Extending timeout for 0x1c request
+[0xd9eb] Extending timeout for 0x1e request
+[0xd9eb] Extending timeout for 0x20 request
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=28 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0000] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=28 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x1c seq -- probably duplicate response
+[0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=30 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=30 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x1e seq -- probably duplicate response
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=32 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x20 seq -- probably duplicate response
+[0xD9EB:1:0x0001]: initializing channel: from_cache: False
+[0xd9eb] Extending timeout for 0x22 request
+[0xd9eb:1:0x000a] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=False disable_default_response=False> manufacturer=None tsn=89 command_id=Command.Read_Attributes>
+[0xd9eb:1:0x000a] ZCL request 0x0000: [[7]]
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=34 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=34 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x22 seq -- probably duplicate response
+[0xd9eb:1:0x0001] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=34 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x22 seq -- probably duplicate response
+[0xD9EB:1:0x0019]: initializing channel: from_cache: False
+[0xd9eb] Delivery error for seq # 0x1c, on endpoint id 1 cluster 0x0000: ZiGate doesn't answer to command
+[0xD9EB:1:0x0000]: initializing channel: from_cache: False
+[0xd9eb] Delivery error for seq # 0x1e, on endpoint id 1 cluster 0x0006: ZiGate doesn't answer to command
+[0xD9EB:1:0x0006]: initializing channel: from_cache: False
+[0xd9eb] Extending timeout for 0x25 request
+[0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=37 command_id=Command.Read_Attributes_rsp>
+[0xd9eb:1:0x0006] ZCL deserialize: <ZCLHeader frame_control=<FrameControl frame_type=GLOBAL_COMMAND manufacturer_specific=False is_reply=True disable_default_response=True> manufacturer=None tsn=37 command_id=Command.Read_Attributes_rsp>
+[0xd9eb] Invalid state on future for 0x25 seq -- probably duplicate response
+[0xD9EB:1:0x0000]: 'async_initialize' stage succeeded
+[0xD9EB:1:0x0006]: 'async_initialize' stage succeeded
+[0xD9EB:1:0x0001]: 'async_initialize' stage succeeded
+[0xD9EB:1:0x0019]: 'async_initialize' stage succeeded
+[0xD9EB](TS0041): power source: Battery or Unknown
+[0xD9EB](TS0041): completed initialization
+[0xD9EB:1:0x0006]: attempting to update onoff state - from cache: True
